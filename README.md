@@ -7,7 +7,10 @@ It's a very niche use tool, imagine a scenario like this: some program/process h
 Of course, this tool can also be used for programs that spawn obnoxious processes which you don't want to have running in the background (so you'd set a really low scan interval, and make it end the process automatically every few seconds or so)
 
 
-Usage syntax: python auto_process_ender.py -pname [process].exe -interval [milliseconds] --restart
-Example with restart: python auto_process_ender.py -pname dwm.exe -interval 5000 --restart
+Usage syntax:
+python auto_process_ender.py -pname [process].exe -interval [milliseconds] --restart
+
+Example with restart:
+python auto_process_ender.py -pname dwm.exe -interval 5000 --restart
 
 For convenience, it's advised to put it inside a .bat file (entire script command line, like above) and doubleclick to enable the autorestart indefinitely.
